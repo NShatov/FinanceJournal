@@ -30,8 +30,6 @@ body {
 .container {
   width: 1235px;
   margin: 0 auto;
-  border-right: 1px solid #333333;
-  border-left: 1px solid #333333;
 }
 
 a {
@@ -39,7 +37,7 @@ a {
 }
 
 p {
-  margin: 0 0 12px 0;
+  margin: 0 0 11px 0;
 }
 
 .container-flex {
@@ -373,4 +371,146 @@ p {
 .section__text {
   font-style: normal;
   font-weight: normal;
+}
+
+.page-article section {
+  width: 700px;
+  padding-bottom: 45px;
+}
+
+.rating {
+  position: relative;
+}
+
+.rating__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 43px 0 39px 0;
+}
+
+.rating__list {
+  padding: 0;
+  margin: 0;
+  margin: 0 100px 24px 0;
+  column-count: 2;
+  column-gap: 0;
+  counter-reset: rating-counter;
+}
+
+.rating__item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 28px;
+  margin-left: 52px;
+  font-size: 20px;
+  line-height: 30px;
+  counter-increment: rating-counter;
+}
+
+.rating__item::before {
+  content: counter(rating-counter);
+  position: absolute;
+  top: -6px;
+  left: -49px;
+  font-weight: normal;
+  font-size: 73px;
+  line-height: 76px;
+  color: rgba(89, 116, 255, 0.13);
+}
+
+.rating__name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.rating__value {
+  font-weight: normal;
+}
+
+.page-article__aside {
+  position: absolute;
+  top: 0;
+  right: -279px;
+  max-width: 209px;
+}
+
+.aside__link {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.brokers {
+  position: relative;
+}
+
+.brokers__table {
+  margin-top: 43px;
+  width: 670px;
+  border-collapse: collapse;
+}
+
+.brokers__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: start;
+  margin: 0 -10px 22px 0;
+}
+
+.brokers__table th {
+  padding: 17px 30px 20px 30px;
+  vertical-align: top;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: rgba(0, 2, 24, 0.6);
+}
+
+.brokers__table th:first-child {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.brokers__table tr {
+  padding: 10px 10px 10px 10px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.brokers__table tr:nth-child(even) {
+  background-color: #F1F4FB;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+.brokers__table tr:nth-child(even) td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.brokers__table tr:nth-child(even) td:last-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.brokers__table .name {
+  width: 100px;
+}
+
+.brokers__table .value {
+  width: 190px;
+}
+
+.brokers__table tr:nth-child(odd) td {
+  padding: 21px 10px 21px 10px;
+}
+
+.brokers__table td:first-child {
+  text-align: left;
 }
