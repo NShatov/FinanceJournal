@@ -40,6 +40,18 @@
     <symbol id="time-icon" viewBox="0 0 18 18">
       <path opacity=".5" d="M9 18A9 9 0 119 0a9 9 0 010 18zm0-1.8A7.2 7.2 0 109 1.8a7.2 7.2 0 000 14.4zM9.9 9h3.6v1.8H8.1V4.5h1.8V9z" fill="#000218"/>
     </symbol>
+    <symbol id="vk-icon" viewBox="0 0 28 16">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7 15.93h1.67s.5-.05.77-.33c.23-.26.23-.74.23-.74s-.04-2.25 1-2.58c1.03-.32 2.35 2.18 3.75 3.14 1.06.72 1.86.57 1.86.57l3.74-.06s1.96-.12 1.03-1.66c-.08-.12-.54-1.14-2.78-3.22-2.34-2.18-2.03-1.83.8-5.6 1.71-2.3 2.4-3.7 2.19-4.3-.2-.57-1.47-.42-1.47-.42l-4.21.03s-.32-.04-.55.1c-.22.13-.37.45-.37.45s-.66 1.77-1.55 3.29c-1.88 3.18-2.63 3.35-2.93 3.15-.72-.46-.54-1.85-.54-2.84 0-3.09.47-4.38-.91-4.71-.46-.11-.8-.18-1.97-.2-1.5-.01-2.77 0-3.49.36-.48.24-.85.76-.62.79.28.04.9.17 1.24.63.43.58.42 1.9.42 1.9s.24 3.64-.58 4.1c-.57.3-1.35-.33-3.02-3.22-.86-1.48-1.5-3.12-1.5-3.12s-.13-.3-.35-.47C5.29.77 4.91.7 4.91.7l-4 .02s-.6.02-.82.28c-.2.23-.01.72-.01.72S3.2 9.07 6.75 12.76c3.26 3.4 6.95 3.17 6.95 3.17z" fill="#FCFCFC"/>
+    </symbol>
+    <symbol id="fb-icon" viewBox="0 0 11 22">
+      <path d="M8.17 4.19H11V0H7.68v.02c-4.03.14-4.86 2.4-4.93 4.8V6.9H0V11h2.74v11h4.14V11h3.38l.65-4.1H6.88V5.64c0-.8.53-1.45 1.3-1.45z" fill="#FCFCFC"/>
+    </symbol>
+    <symbol id="inst-icon" viewBox="0 0 22 22">
+      <path d="M13.93 10.99a2.93 2.93 0 11-5.86 0 2.93 2.93 0 015.86 0z" fill="#FCFCFC"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.13C0 2.3 2.3 0 5.13 0h11.74C19.7 0 22 2.3 22 5.13v11.74C22 19.7 19.7 22 16.87 22H5.13A5.13 5.13 0 010 16.87V5.13zm18.14 0a1.47 1.47 0 11-2.94 0 1.47 1.47 0 012.94 0zM16.5 11a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" fill="#FCFCFC"/>
+    </symbol>
+    <symbol id="tw-icon" viewBox="0 0 23 18">
+      <path d="M23 2.14c-.86.36-1.78.6-2.71.71A4.6 4.6 0 0022.36.34c-.92.53-1.93.9-3 1.1a4.88 4.88 0 00-5.67-.9 4.62 4.62 0 00-2.07 2.13 4.39 4.39 0 00-.3 2.91 13.8 13.8 0 01-5.38-1.37A13.32 13.32 0 011.6.84a4.4 4.4 0 00-.64 2.28 4.5 4.5 0 002.1 3.78 4.84 4.84 0 01-2.14-.57v.06c0 1.05.38 2.07 1.07 2.88a4.76 4.76 0 002.72 1.57c-.7.19-1.43.21-2.13.08.3.9.89 1.7 1.68 2.26.79.57 1.74.88 2.73.9A9.61 9.61 0 010 15.96 13.73 13.73 0 007.23 18 13.08 13.08 0 0020.65 4.49 9.4 9.4 0 0023 2.14z" fill="#FCFCFC"/>
+    </symbol>
   </svg>
   <header class="page-header">
     <nav class="page-header__nav">
@@ -153,7 +165,7 @@
         <div class="block-diagram">
           <figure>
             <img src="img/diagram-1.png" width="700" height="339" alt="График роста количества открытых ИИС">
-            <figcaption class="block-diagram__title"><b>Данные предоставлены Московской Биржей в 2020 году</figcaption>
+            <figcaption class="block-diagram__title">Данные предоставлены Московской Биржей в 2020 году</figcaption>
           </figure>
         </div>
         <p class="page-article__text intro-text">В статье разберем главные вопросы об инвестициях, с чего начать и как <del>не облажаться</del> <ins>действовать правильно</ins>.</p>
@@ -248,7 +260,7 @@
               <tr>
                 <th>Брокер</th>
                 <th>Комиссия за вывод средств</th>
-                <th>Комиссия за сделку</th>
+                <th>Комиссия<br> за сделку</th>
                 <th>Русскоязычная поддержка</th>
               </tr>
               <tr>
@@ -282,13 +294,13 @@
                 <td>Нет</td>
               </tr>
             </table>
-            <aside class="page-article__aside">
-              <a class="aside__link" href="#">Особенности работы с американскими брокерами</a>
+            <aside class="page-article__aside brokers-aside">
+              <a class="aside__link" href="#">Особенности работы<br> с американскими брокерами</a>
             </aside>
           </div>
           </section>
           <section id="management">
-            <h2 class="section__title" id="third">Как управлять ИИС?</h2>
+            <h2 class="section__title">Как управлять ИИС?</h2>
             <p class="section__text">Существует два способа управления <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn>: самостоятельное и доверительное. Если вы выбрали самостоятельное управление <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn>, вы принимаете все решения независимо от брокера. <mark class="section__text--mark">За все риски и потери вы отвечаете сами, оплачивая комиссию за сделки брокеру.</mark></p>
             <p class="section__text">В самом начале мы рекомендуем вносить инвестиции с помощью брокера, предварительно разобравшись в основах стратегии инвестирования. Несмотря на то, что брокер будет брать небольшой процент за данную услугу, преимуществ значительно больше по сравнению с самостоятельным управлением.</p>
             <blockquote class="paragraph__quote quote">
@@ -297,9 +309,9 @@
             </blockquote>
           </section>
           <section id="investment">
-            <h2 class="section__title" id="fourth">Как и куда инвестировать через ИИС?</h2>
-            <p class="section__text">Для начала достаточно и 50 000 &#8381;, в таком случае вы не будете ощущать различных комиссионных вычетов. Для того, чтобы внести деньги на счет, следует перевести сумму по реквизитам <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> инвестора.</p>
-            <p class="section__text">Все реквизиты должны быть указаны брокером во время подписания договора. Вы можете пополнять <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> так часто, как вам хочется.</p>
+            <h2 class="section__title">Как и куда инвестировать через ИИС?</h2>
+            <p class="section__text">Для начала достаточно и 50 000 &#8381;, в таком случае вы не будете ощущать различных комиссионных вычетов. Для того, чтобы внести деньги на счет, следует перевести сумму по реквизитам <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> инвестора.</p>
+            <p class="section__text">Все реквизиты должны быть указаны брокером во время подписания договора. Вы можете пополнять <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> так часто, как вам хочется.</p>
             <div class="attachments">
               <h3 class="attachments__title">Виды вложений:</h3>
               <ol class="attachments__list">
@@ -325,275 +337,303 @@
                   </ol>
                 </li>
               </ol>
-              <aside class="page-article__aside">
+              <aside class="page-article__aside attachments-aside">
                 <a class="aside__link" href="#">Акции или облигации.<br> Что выбрать?</a>
               </aside>
             </div>
-            <figure class="block-diagram">
-              <div class="block-diagram__wrapper">
-                <div class="block-diagram__img">
-                  <img src="img/circular-diagram.png" width="270" height="270" alt="Кольцевая диаграмма">
-                </div>
-                <figcaption class="block-diagram__title">Инвестиции владельцев ИИС</figcaption>
-                <dl class="diagram-list">
-                  <div class="diagram-list__box">
-                    <dt class="diagram-list__title">Акции</dt>
-                    <dd class="diagram-list__desc">50%</dd>
+            <figure class="investment__figure">
+              <img src="img/diagram-2.png" width="700" height="370" alt="График инвестиций владельцев ИИС">
+              <figcaption class="block-diagram__title">Данные предоставлены Московской Биржей</figcaption>
+            </figure>
+          </section>
+          <section class="columns" id="recoupment">
+            <h2 class="section__title">Вычеты</h2>
+            <p class="section__text">Рассмотрим вычет налога на взносы, который дает возможность вернуть <abbr title="Налог на доходы физических лиц">НДФЛ</abbr> в размере 13% от суммы, внесенной на <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> за этот год. Для получения самого крупного возврата необходимо пополнить счет до 400 000 &#8381; за один год и заплатить 52 000 &#8381; <abbr title="Налог на доходы физических лиц">НДФЛ</abbr>. Таким образом, больше уплаченного <abbr title="Налог на доходы физических лиц">НДФЛ</abbr> за год вы не вернете.</p>
+            <p class="section__text">Рассмотрим пример, в 2017 году вы внесли на счет 220 000 &#8381;, при этом было удержано 43 000 &#8381;. Вы можете получить налоговый вычет в размере 28 000 &#8381;. Для возврата полной суммы налога, вам  следовало внести на счет около 319 000 &#8381;.</p>
+            <a class="paragraph__button" href="#">Подбробнее о вычете на взносы</a>
+            <p class="section__text">Чтобы получить вычет на взносы нужно оформить налоговую декларацию <abbr title="Налог на доходы физических лиц">НДФЛ</abbr>, а также договор на обслуживание <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr>. Если вы вносите деньги до конца года, вы имеете право обратиться за вычетом в начале следующего года.</p>
+            <p class="section__text">Вычет на доход освобождает инвестора от уплаты <abbr title="Налог на доходы физических лиц">НДФЛ</abbr> с дохода, полученного с помощью <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr>, независимо от размера дохода. Надо взять в налоговой справку о том, что по этому <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> вы ни разу не использовали вычет на взносы. Отдайте брокеру справку перед закрытием счета, и брокер не удержит <abbr title="Налог на доходы физических лиц">НДФЛ</abbr> от прибыльных операций на счете.</p>
+            <a class="paragraph__button" href="#">Подбробнее о вычете на доход</a>
+            <p class="section__text">Совмещать оба виды вычетов нельзя. Если хотя бы раз использовали вычет на взносы, вычет на доход по этому <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> применить не получится. Что лучше? В большинстве случаев вычет на взносы выгоднее, но есть ньюансы.</p>
+          </section>
+          <section id="calculation">
+            <div class="block-with-aside">
+              <h2 class="section__title">Расчёт доходов</h2>
+              <p class="section__text">Кажется просто – покупаете облигации с доходностью 10% и получаете налоговую компенсацию 13%. Складываем и получаем итоговую доходность в 23%. Но все не так просто. Такую доходность инвестиции принесут в первый год, а средства должны пролежать на счете как минимум 3 года. Во второй год и далее компенсация уже не будет составлять 13% от всего счета.</p>
+              <p class="section__text"><mark>Прибыль <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> меняется в зависимости от доходности облигаций и сроков инвестирования.</mark> При описанных условиях, когда инвестируемые деньги (400 000 &#8381;) в начале каждого года полностью расходуются вместе с прибылью предыдущего периода для покупки аналогичных облигаций, прибыль считается очень просто. Это аналог банковского вклада с ежегодным пополнением. Результат можно посчитать в виде суммы первых членов геометрической прогрессии:</p>
+              <div class="formula__wrapper">
+                <p class="formula"><var>A</var> ✕ <var>m</var> + <var>r</var><sub>2</sub> = <var>A</var> ✕ (<var>r</var> + 1)<sup>n</sup> − 1</p>
+                <dl class="formula__description">
+                  <div>
+                    <dt>A</dt>
+                    <dd> – размер ежегодных инвестиций</dd>
                   </div>
-                  <div class="diagram-list__box">
-                    <dt class="diagram-list__title">Государственные облигации</dt>
-                    <dd class="diagram-list__desc">30%</dd>
+                  <div>
+                    <dt>r</dt>
+                    <dd> – доходность облигации</dd>
                   </div>
-                  <div class="diagram-list__box">
-                    <dt class="diagram-list__title">Корпоративные облигации</dt>
-                    <dd class="diagram-list__desc">20%</dd>
+                  <div>
+                    <dt>m</dt>
+                    <dd> – количество лет</dd>
                   </div>
                 </dl>
               </div>
-              <small class="small__desc">Данные предоставлены Московской Биржей</small>
-            </figure>
-          </section>
-          <section id="recoupment">
-            <h2 class="section__title" id="fifth">Вычеты</h2>
-            <p class="section__text">Рассмотрим вычет налога на взносы, который дает возможность вернуть <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn> в размере 13% от суммы, внесенной на <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> за этот год. Для получения самого крупного возврата необходимо пополнить счет до 400 000 &#8381; за один год и заплатить 52 000 &#8381; <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn>. Таким образом, больше уплаченного <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn> за год вы не вернете.</p>
-            <p class="section__text">Рассмотрим пример, в 2017 году вы внесли на счет 220 000 &#8381;, при этом было удержано 43 000 &#8381;. Вы можете получить налоговый вычет в размере 28 000 &#8381;. Для возврата полной суммы налога, вам  следовало внести на счет около 319 000 &#8381;.</p>
-            <a class="paragraph__button" href="#">Подбробнее о вычете на взносы</a>
-            <p class="section__text">Чтобы получить вычет на взносы нужно оформить налоговую декларацию <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn>, а также договор на обслуживание <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn>. Если вы вносите деньги до конца года, вы имеете право обратиться за вычетом в начале следующего года.</p>
-            <p class="section__text">Вычет на доход освобождает инвестора от уплаты <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn> с дохода, полученного с помощью <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn>, независимо от размера дохода. Надо взять в налоговой справку о том, что по этому <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> вы ни разу не использовали вычет на взносы. Отдайте брокеру справку перед закрытием счета, и брокер не удержит <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn> от прибыльных операций на счете.</p>
-            <a class="paragraph__button" href="#">Подбробнее о вычете на доход</a>
-            <p class="section__text">Совмещать оба виды вычетов нельзя. Если хотя бы раз использовали вычет на взносы, вычет на доход по этому <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> применить не получится. Что лучше? В большинстве случаев вычет на взносы выгоднее, но есть ньюансы.</p>
-          </section>
-          <section id="calculation">
-            <h2 class="section__title" id="sixth">Расчёт доходов</h2>
-            <p class="section__text">Кажется просто – покупаете облигации с доходностью 10% и получаете налоговую компенсацию 13%. Складываем и получаем итоговую доходность в 23%. Но все не так просто. Такую доходность инвестиции принесут в первый год, а средства должны пролежать на счете как минимум 3 года. Во второй год и далее компенсация уже не будет составлять 13% от всего счета.</p>
-            <p class="section__text"><mark>Прибыль <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> меняется в зависимости от доходности облигаций и сроков инвестирования.</mark> При описанных условиях, когда инвестируемые деньги (400 000 &#8381;) в начале каждого года полностью расходуются вместе с прибылью предыдущего периода для покупки аналогичных облигаций, прибыль считается очень просто. Это аналог банковского вклада с ежегодным пополнением. Результат можно посчитать в виде суммы первых членов геометрической прогрессии:</p>
-            <div class="formula">
-              <p class="formula__text">A x m + r<sub>2</sub> = A x (r + 1)<sup>n</sup> - 1</p>
-              <dl class="formula__list">
-                <div class="formula__box">
-                  <dt class="formula__term">A - </dt>
-                  <dd class="formula__desc">размер ежегодных инвестиций</dd>
-                </div>
-                <div class="formula__box">
-                  <dt class="formula__term">r - </dt>
-                  <dd class="formula__desc">доходность облигации</dd>
-                </div>
-                <div class="formula__box">
-                  <dt class="formula__term">m - </dt>
-                  <dd class="formula__desc">количество лет</dd>
-                </div>
-              </dl>
-              <p class="formula__text">Для упрощения расчёта дохода вы можете воспользоваться <a href="" class="formula__link">нашим калькулятором</a>.</p>
-            </div>
-            <aside class="page-article__aside">
+              <p class="formula__text">Для упрощения расчёта дохода вы можете воспользоваться <a href="" class="formula__link">нашим&nbsp;калькулятором</a>.</p>
+            <aside class="page-article__aside calculation-aside">
               <a class="aside__link" href="#">Сколько можно заработать на ИИС за 3 года</a>
             </aside>
+            </div>
           </section>
           <section id="accounting">
-            <h2 class="section__title" id="seventh">Учет</h2>
+            <h2 class="section__title">Учет</h2>
             <p class="section__text">Как только вы начали инвестировать, советуем вам завести привычку вести учет всех активов. С ростом инветиций и без единой формы и отчета, вам будет сложно увидеть полную картинку.</p>
-            <p class="section__text">Вы можете разработать собственную отчетную форму, либо воспользоваться <a class="paragraph__link" href="#">нашей таблицей</a>. Записывайте активы и будете видеть точный бюджет поступлений на месяц вперед.</p>
+            <p class="section__text">Вы можете разработать собственную отчетную форму, либо воспользоваться <a href="#table-1">нашей таблицей</a>. Записывайте активы и будете видеть точный бюджет поступлений на месяц вперед.</p>
             <p class="section__text">Так, например, вы можете рассчитывается прибыль и убыток по позиции, дату и размер ближайшего поступления от актива, а также отчет по количеству используемых валют.</p>
-              <table>
-                <tr>
-                  <th rowspan="2">Валюта</th>
-                  <th rowspan="2">Кол-во бумаг</th>
-                  <th colspan="2">Сумма активов</th>
-                  <th rowspan="2">% от активов</th>
-                </tr>
-                <tr>
-                  <th>в рублях</th>
-                  <th>в долларах</th>
-                </tr>
-                <tr>
-                  <td>RUB</td>
-                  <td>3</td>
-                  <td>300 000 &#8381;</td>
-                  <td>4 179 $</td>
-                  <td>30%</td>
-                </tr>
-                <tr>
-                  <td>USD</td>
-                  <td>5</td>
-                  <td>500 000 &#8381;</td>
-                  <td>6 965 $</td>
-                  <td>50%</td>
-                </tr>
-                <tr>
-                  <td>EUR</td>
-                  <td>2</td>
-                  <td>200 000 &#8381;</td>
-                  <td>2 768 $</td>
-                  <td>20%</td>
-                </tr>
-                <tr>
-                  <th>Итого:</th>
-                  <th>10</th>
-                  <th>1 000 000  &#8381;</th>
-                  <th>13 912 $</th>
-                  <th>100%</th>
-                </tr>
+            <figure class="color-table__wrapper">
+              <table id="table-1" class="color-table">
+                <colgroup>
+                  <col class="currency">
+                  <col class="count">
+                  <col span="2" class="sum">
+                  <col class="percentage">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Валюта</th>
+                    <th rowspan="2">Кол-во бумаг</th>
+                    <th colspan="2">Сумма активов</th>
+                    <th rowspan="2">% от активов</th>
+                  </tr>
+                  <tr>
+                    <th class="smaller">в рублях</th>
+                    <th class="smaller">в долларах</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>RUB</td>
+                    <td>3</td>
+                    <td>300 000 ₽</td>
+                    <td>4 179 $</td>
+                    <td>30%</td>
+                  </tr>
+                  <tr>
+                    <td>USD</td>
+                    <td>5</td>
+                    <td>500 000 ₽</td>
+                    <td>6 965 $ </td>
+                    <td>50%</td>
+                  </tr>
+                  <tr>
+                    <td>EUR</td>
+                    <td>2</td>
+                    <td>200 000 ₽</td>
+                    <td>2 768 $</td>
+                    <td>20%</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Итого:</td>
+                    <td>10</td>
+                    <td>1 000 000 ₽</td>
+                    <td>13 912 $</td>
+                    <td>100%</td>
+                  </tr>
+                </tfoot>
               </table>
-              <small class="small__desc">Пример анализа используемой валюты</small>
+              <figcaption class="color-tible__subtitle">Пример анализа используемой валюты</figcaption>
+            </figure>
           </section>
           <section id="resume">
-            <h2 class="section__title" id="eighth">Коротко о главном</h2>
-            <p class="section__text"><dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn> является одним из простых и удобных способов инвестирования денежных средств на срок от 3-х лет. Своевременная выплата <dfn id="NDFL"><abbr title="Налог на доходы физических лиц">НДФЛ</abbr></dfn> дает возможность его возврата при помощи вычетов на взносы на <dfn id="IIS"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr></dfn>.</p>
+            <h2 class="section__title">Коротко о главном</h2>
+            <p class="section__text"><abbr title="Индивидуальный инвестиционный счет">ИИС</abbr> является одним из простых и удобных способов инвестирования денежных средств на срок от 3-х лет. Своевременная выплата <abbr title="Налог на доходы физических лиц">НДФЛ</abbr> дает возможность его возврата при помощи вычетов на взносы на <abbr title="Индивидуальный инвестиционный счет">ИИС</abbr>.</p>
           </section>
       </div>
-      <section class="notes">
-        <h3 class="notes__title">Примечания</h3>
-        <ol class="notes__list">
-          <li class="notes__item" id="note1">На начало апреля на Московской бирже зарегистрировано два миллиона индивидуальных инвестиционных счетов (ИИС), открытых физическими лицами. Всего на бирже 4,57 млн человек имеют брокерские счета. На начало года было открыто 1,65 млн ИИС, их число за первый квартал увеличилось на 407 тыс. На долю брокерских счетов приходится 87% ИИС, счета доверительного управления (ИИС-ДУ) составляют 13%.</li>
-          <li class="notes__item" id="note2">Согласно федеральный закон № 35-ФЗ «О рынке ценных бумаг», подп. 3 п. 2 ст. 215.7 НК РФ.</li>
-          <li class="notes__item" id="note3">Об открытии ИИС за рубежом необходимо уведомлять ФНС в течение 15 дней с момента заключения договора с банком, брокерской или управляющей компанией. В противном случае налоговые органы имеют право выписать штраф в размере до 5000 рублей (при повторных нарушениях размер штрафных санкций возрастает). Также, необходимо уведомить ФНС о закрытии счета или изменениях в реквизитах. </li>
-        </ol>
-      </section>
       <footer class="page-article__footer">
-        <ul class="link__list">
-          <li class="link__item"><a class="button" href="#">ИИС</a></li>
-          <li class="link__item"><a class="button" href="#">для начинающих</a></li>
-          <li class="link__item"><a class="button" href="#">вложения</a></li>
-          <li class="link__item"><a class="button" href="#">пассивный доход</a></li>
-        </ul>
-        <div class="meta__row">
-          <div class="meta__col">
-            <time class="meta meta__date" datetime="2020-07-23">23.07.20</time>
+        <div class="container">
+          <section class="footnotes">
+            <h2 class="footnotes__title">Примечания</h2>
+            <ol class="footnotes__list">
+              <li class="footnotes__item" id="note1">На начало апреля на Московской бирже зарегистрировано два миллиона индивидуальных инвестиционных счетов (ИИС), открытых физическими лицами. Всего на бирже 4,57 млн человек имеют брокерские счета. На начало года было открыто 1,65 млн ИИС, их число за первый квартал увеличилось на 407 тыс. На долю брокерских счетов приходится 87% ИИС, счета доверительного управления (ИИС-ДУ) составляют 13%.<a href="#note1-ref" class="back">↩</a></li>
+              <li class="footnotes__item" id="note2">Согласно федеральный закон № 35-ФЗ «О рынке ценных бумаг», подп. 3 п. 2 ст. 215.7 НК РФ.<a href="#note2-ref" class="back">↩</a></li>
+              <li class="footnotes__item" id="note3">Об открытии ИИС за рубежом необходимо уведомлять ФНС в течение 15 дней с момента заключения договора с банком, брокерской или управляющей компанией. В противном случае налоговые органы имеют право выписать штраф в размере до 5000 рублей (при повторных нарушениях размер штрафных санкций возрастает). Также, необходимо уведомить ФНС о закрытии счета или изменениях в реквизитах.<a href="#note3-ref" class="back">↩</a></li>
+            </ol>
+          </section>
+        </div>
+        <div class="meta-wrapper">
+          <div class="container">
+          <ul class="hashtags__list">
+            <li class="hashtag__item"><a class="button" href="#">ИИС</a></li>
+            <li class="hashtag__item"><a class="button" href="#">для начинающих</a></li>
+            <li class="hashtag__item"><a class="button" href="#">вложения</a></li>
+            <li class="hashtag__item"><a class="button" href="#">пассивный доход</a></li>
+          </ul>
+          <div class="meta__row">
+            <div class="meta__col">
+              <time class="meta meta__date" datetime="2020-07-23">23.07.20</time>
+            </div>
+            <div class="meta__col">
+              <span class="meta meta__views"><svg class="meta-icon" width="20" height="16"><use xlink:href="#eye-icon"></svg>100k</span>
+            </div>
           </div>
-          <div class="meta__col">
-            <span class="meta meta__views">100k</span>
-          </div>
+        </div>
         </div>
       </footer>
     </article>
-    <section class="investments">
-      <header class="investments__header">
-        <h2 class="investments__title">Об инвестициях для начинающих</h2>
-        <a class="button" href="#">Смотреть все</a>
-      </header>
-      <ul class="investments__list">
-        <li class="investments__item">
-          <h3 class="investments__title">Как зарабатывать на ИИС</h3>
-          <img src="img/photo-1.png" width="370" height="200" alt="Графики">
-          <p class="investments__text">Сейчас лучшее время для открытия ИИС — успеете до конца этого года, в следующем году получите вычет.</p>
-          <p class="investments__text">С помощью нашего калькулятора вы можете посчитать, сколько заработаете на ИИС при разных вариантах инвестирования, при вычете взноса на доход или вычете на взнос.</p>
-          <div class="meta__row">
-          <div class="meta__col">
-            <time class="meta meta__date" datetime="2020-06-27">27.06.20</time>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__views">114k</span>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__time">10 минут</span>
-          </div>
+  </main>
+    <aside class="page-aside">
+      <div class="container">
+        <div class="page-article__aside-wrapper">
+          <h2 class="section__title">Об инвестициях для начинающих</h2>
+          <a class="section__link" href="#">Смотреть все</a>
         </div>
-        <a class="investments__link" href="#">Читать дальше</a>
+      <ul class="aside-articles">
+        <li>
+          <article class="aside-article">
+            <img src="img/photo-1.png" width="370" height="200" alt="Трёхмерный график">
+            <div class="aside-article-content">
+              <h3 class="aside-article__title">Как зарабатывать на ИИС</h3>
+              <p class="aside-article__text">Сейчас лучшее время для открытия ИИС — успеете до конца этого года, в следующем году получите вычет.</p>
+              <p class="aside-article__text">С помощью нашего калькулятора вы можете посчитать, сколько заработаете на ИИС при разных вариантах инвестирования, при вычете взноса на доход или вычете на взнос.</p>
+              <footer>
+                <div class="meta__row">
+                  <div class="meta__col">
+                    <time class="meta meta__date" datetime="2020-06-27">27.06.20</time>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__views"><svg class="meta-icon" width="20" height="16"><use xlink:href="#eye-icon"></svg>114k</span>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__time"><svg class="meta-icon" width="18" height="18"><use xlink:href="#time-icon"></svg>10 минут</span>
+                  </div>
+                </div>
+              </footer>
+            </div>
+            <a class="aside-article__link" href="#">Читать дальше</a>
+          </article>
         </li>
-        <li class="investments__item">
-          <h3 class="investments__title">Ответы на вопросы</h3>
-          <img src="img/photo-2.png" width="370" height="200" alt="Комментарии">
-          <p class="investments__text">Михаил, частный инвестор, отвечает на самые часто возникающие вопросы об ИИС.</p>
-          <p class="investments__text">Какую биржу выбрать, какие есть риски, куда лучше инвестировать, как получить прибыль от ETF и многое другое. Пишите нам ваши вопросы и мы обязательно на них ответим.</p>
-          <div class="meta__row">
-          <div class="meta__col">
-            <time class="meta meta__date" datetime="2020-06-21">21.06.20</time>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__views">129k</span>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__time">12 минут</span>
-          </div>
-        </div>
-        <a class="investments__link" href="#">Читать дальше</a>
+        <li>
+          <article class="aside-article">
+            <img src="img/photo-2.png" width="370" height="200" alt="Трёхмерная иконка для сообщений">
+            <div class="aside-article-content">
+              <h3 class="aside-article__title">Ответы на вопросы</h3>
+              <p class="aside-article__text">Михаил, частный инвестор, отвечает на самые часто возникающие вопросы об ИИС.</p>
+              <p class="aside-article__text">Какую биржу выбрать, какие есть риски, куда лучше инвестировать, как получить прибыль от ETF и многое другое. Пишите нам ваши вопросы и мы обязательно на них ответим.</p>
+              <footer>
+                <div class="meta__row">
+                  <div class="meta__col">
+                    <time class="meta meta__date" datetime="2020-06-21">21.06.20</time>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__views"><svg class="meta-icon" width="20" height="16"><use xlink:href="#eye-icon"></svg>129k</span>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__time"><svg class="meta-icon" width="18" height="18"><use xlink:href="#time-icon"></svg>12 минут</span>
+                  </div>
+                </div>
+              </footer>
+            </div>
+            <a class="aside-article__link" href="#">Читать дальше</a>
+          </article>
         </li>
-        <li class="investments__item">
-          <h3 class="investments__title">Торги на бирже</h3>
-          <img src="img/photo-3.png" width="370" height="200" alt="Боксерские перчатки">
-          <p class="investments__text">Биржа – организатор торгов акциями и облигациями. Она нужна для того, чтобы облегчить вам работу, обеспечить безопасную сделку в обмен на процент.</p>
-          <p class="investments__text">Вы можете торговать и без понимания работы торгов. Но знания о внутренних процессах дадут вам преимущество.</p>
-          <div class="meta__row">
-          <div class="meta__col">
-            <time class="meta meta__date" datetime="2020-06-16">16.06.20</time>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__views">153k</span>
-          </div>
-          <div class="meta__col">
-            <span class="meta meta__time">15 минут</span>
-          </div>
-        </div>
-        <a class="investments__link" href="#">Читать дальше</a>
+        <li>
+          <article class="aside-article">
+            <img src="img/photo-3.png" width="370" height="200" alt="Боксёрские перчатки">
+            <div class="aside-article-content">
+              <h3 class="aside-article__title">Торги на бирже</h3>
+              <p class="aside-article__text">Биржа – организатор торгов акциями и облигациями. Она нужна для того, чтобы облегчить вам работу, обеспечить безопасную сделку в обмен на процент.</p>
+              <p class="aside-article__text">Вы можете торговать и без понимания работы торгов. Но знания о внутренних процессах дадут вам преимущество.</p>
+              <footer>
+                <div class="meta__row">
+                  <div class="meta__col">
+                    <time class="meta meta__date" datetime="2020-06-16">16.06.20</time>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__views"><svg class="meta-icon" width="20" height="16"><use xlink:href="#eye-icon"/></svg>153k</span>
+                  </div>
+                  <div class="meta__col">
+                    <span class="meta meta__time"><svg class="meta-icon" width="18" height="18"><use xlink:href="#time-icon"/></svg>15 минут</span>
+                  </div>
+                </div>
+              </footer>
+            </div>
+            <a class="aside-article__link" href="#">Читать дальше</a>
+          </article>
         </li>
       </ul>
-    </section>
-  </main>
+    </div>
+    </aside>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <div class="column">
+      <div class="container container-flex">
+        <div class="page-footer__col">
         <a class="page-footer__logo logo" href="index.html">
           <img src="img/logo.svg" width="238" height="16" alt="FINANSE JOURNAL">
         </a>
         <ul class="social__list">
           <li class="social__item">
-            <a href="#" class="social__link" aria-label="Вконтакте">Вконтакте</a>
+            <a href="#" class="social__link" aria-label="Вконтакте"><svg class="page-footer__icon" width="28" height="16"><use xlink:href="#vk-icon"></svg></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link" aria-label="Facebook">Facebook</a>
+            <a href="#" class="social__link" aria-label="Facebook"><svg class="page-footer__icon" width="11" height="22"><use xlink:href="#fb-icon"></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link" aria-label="Instagram">Instagram</a>
+            <a href="#" class="social__link" aria-label="Instagram"><svg class="page-footer__icon" width="22" height="22"><use xlink:href="#inst-icon"></svg></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link" aria-label="Twitter">Twitter</a>
+            <a href="#" class="social__link" aria-label="Twitter"><svg class="page-footer__icon" width="23" height="18"><use xlink:href="#tw-icon"></svg></a>
           </li>
         </ul>
       </div>
-      <div class="column">
-        <ul class="page-footer__list">
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Новости</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Инвестиции</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Бизнесу</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Самозанятым</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">О журнале</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Реклама</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Вакансии</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Контакты</a>
-          </li>
-          <li class="page-footer__item">
-            <a href="" class="page-footer__link">Карта сайта</a>
-          </li>
-        </ul>
-      </div>
-      <div class="column">
+      <ul class="page-footer__nav">
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Новости</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Инвестиции</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Бизнесу</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Самозанятым</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Подкасты</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">О журнале</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Реклама</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Вакансии</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Контакты</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Карта сайта</a>
+        </li>
+      </ul>
+      <div class="page-footer__col">
         <form class="page-footer__form" action="#" method="POST">
           <label class="visually-hidden" for="email">Введите e-mail</label>
-          <input class="page-form__email" type="email" id="email" placeholder="Введите свой e-mail">
-          <input class="page-form__submit" type="submit" value="Подписаться">
+          <input class="page-form__email" type="email" id="email" name="email" placeholder="Введите свой e-mail">
+          <button class="page-form__button" type="submit">Подписаться</button>
         </form>
         <p class="page-footer__text">Нажимая кнопку &laquo;Подписаться&raquo;, вы соглашаетесь с условиями обработки персональных данных</p>
       </div>
-      <div class="page-footer__copyright">
-        <p class="copyright">&copy;Finance Journal 2020</p>
-        <a class="copyright__link" href="#">Политика конфиденциальности</a>
-      </div>
     </div>
+  </div>
+  <div class="page-footer__wrapper">
+    <div class="container copyright">
+      <p class="copyright__text">&copy; Finance Journal 2020</p>
+      <a class="copyright__link" href="#">Политика конфиденциальности</a>
+    </div>
+  </div>
   </footer>
 </body>
 </html>
